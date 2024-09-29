@@ -1,0 +1,44 @@
+---
+layout: "layouts/base.html"
+title: "This is my homepage!"
+bannerContent: "This is my banner content"
+pageId: "home"
+---
+
+{% include "includes/banner.html" %}
+
+<section class="triptych">
+  {% for triptych in triptychs %}
+    {% include "includes/card.html", headline: triptych.headline, content: triptych.content %}
+  {% endfor %}
+</section>
+
+<!--
+<section class="triptych">
+  {% for triptych in triptychs %}
+    <div class="triptych__item">
+      <h2>{{ triptych.headline }}</h2>
+      <p>{{ triptych.content }}</p>
+    </div>
+  {% endfor %}
+</section>
+-->
+
+<!---
+<section class="triptych">
+  <div class="triptych__item">
+    <h2>Tryptych 1</h1>
+    <p>Triptych 1 content</p>
+  </div>
+
+  <div class="triptych__item">
+    <h2>Tryptych 2</h1>
+    <p>Triptych 2 content</p>
+  </div>
+
+  <div class="triptych__item">
+    <h2>Tryptych 3</h1>
+    <p>Triptych 3 content</p>
+  </div>
+</section>
+-->

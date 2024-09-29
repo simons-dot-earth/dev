@@ -1,0 +1,18 @@
+{
+    "layout": "layouts/base.html",
+    "pageId": "about",
+    "triptychs": [
+        {
+            "headline": "About Triptych 1",
+            "content": "About Triptych 1 content!"
+        },
+        {
+            "headline": "About Triptych 2",
+            "content": "About Triptych 2 content!"
+        },
+        {
+            "headline": "About Triptych 3",
+            "content": "About Triptych 3 content!"
+        }
+    ]
+}
