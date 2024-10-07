@@ -1,0 +1,1 @@
+This is the root folder for all my scrimba development stuff.
